@@ -60,7 +60,7 @@ const AboutSection = () => {
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
-          I m 3rd year computer Science student with a good foundation in programming, algorithms, and problem-solving. Proficient in multiple programming languages such as C, C++, SQL and Python. 
+          I m 3rd year computer Science student with a good foundation in programming, and problem-solving. Proficient in multiple programming languages such as C, C++, SQL and Python. 
 Eager to leverage my skills in software development and innovation to contribute effectively to real-world projects. Seeking opportunities to translate classroom knowledge into practical applications and make a positive impact on the tech industry.
           </p>
           <div className="flex flex-row justify-start mt-8">
