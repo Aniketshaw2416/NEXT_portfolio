@@ -4,12 +4,11 @@ import ProjectCard from "./ProjectCard";
 import ProjectTag from "./ProjectTag";
 import { motion, useInView } from "framer-motion";
 
-
 const projectsData = [
   {
     id: 1,
-    title: "Next Portfolio Website",
-    description: "Using NEXT.JS ",
+    title: "React Portfolio Website",
+    description: "Project 1 description",
     image: "/images/projects/1.png",
     tag: ["All", "Web"],
     gitUrl: "/",
@@ -17,8 +16,8 @@ const projectsData = [
   },
   {
     id: 2,
-    title: "Coke Landing Page",
-    description: "HTML/CSS Landing page",
+    title: "Potography Portfolio Website",
+    description: "Project 2 description",
     image: "/images/projects/2.png",
     tag: ["All", "Web"],
     gitUrl: "/",
@@ -26,8 +25,8 @@ const projectsData = [
   },
   {
     id: 3,
-    title: "Portfolio Website",
-    description: "HTML/CSS Portfolio Website",
+    title: "E-commerce Application",
+    description: "Project 3 description",
     image: "/images/projects/3.png",
     tag: ["All", "Web"],
     gitUrl: "/",
@@ -35,17 +34,17 @@ const projectsData = [
   },
   {
     id: 4,
-    title: "Amazon Clone",
-    description: "Landing Page clone ",
+    title: "Food Ordering Application",
+    description: "Project 4 description",
     image: "/images/projects/4.png",
-    tag: ["All", "Web"],
+    tag: ["All", "Mobile"],
     gitUrl: "/",
     previewUrl: "/",
   },
   {
     id: 5,
     title: "React Firebase Template",
-    description: "ON PROCESS",
+    description: "Authentication and CRUD operations",
     image: "/images/projects/5.png",
     tag: ["All", "Web"],
     gitUrl: "/",
@@ -54,9 +53,9 @@ const projectsData = [
   {
     id: 6,
     title: "Full-stack Roadmap",
-    description: "JUST A DEMO",
+    description: "Project 5 description",
     image: "/images/projects/6.png",
-    tag: ["All", "Mobile"],
+    tag: ["All", "Web"],
     gitUrl: "/",
     previewUrl: "/",
   },
@@ -66,7 +65,6 @@ const ProjectsSection = () => {
   const [tag, setTag] = useState("All");
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true });
-  
 
   const handleTagChange = (newTag) => {
     setTag(newTag);
