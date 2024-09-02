@@ -24,9 +24,9 @@ const TAB_DATA = [
     id: "education",
     content: (
       <ul className="list-disc pl-2">
-        <li>Narula Institute Of Techonology - 8.7 CGPA</li>
-        <li>Kendriya Vidayalaya Barrackpore Afs - XII- 90.4%</li>
-        <li>Kendriya Vidayalaya Barrackpore Afs - X -80.2%</li>
+        <li>Narula Institute Of Techonology - 8.54 CGPA </li>
+        <li>Kendriya Vidayalaya Barrackpore AFS - XII- 90.4%</li>
+        <li>Kendriya Vidayalaya Barrackpore AFS - X -80.2%</li>
       </ul>
     ),
   },
@@ -38,6 +38,7 @@ const TAB_DATA = [
         
         <li>SQl (Basics) - HakerRank</li>
         <li>Object-Oriented Data Structures in C++  - Coursera </li>
+        <li>Artificial Intelligence using Python  - Ardent </li>
       </ul>
     ),
   },
@@ -60,7 +61,7 @@ const AboutSection = () => {
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
-          I m 3rd year computer Science student with a good foundation in programming, and problem-solving. Proficient in multiple programming languages such as C, C++, SQL and Python. 
+          I m 4th year computer Science student with a good foundation in programming, and problem-solving. Proficient in multiple programming languages such as C, C++, SQL and Python. 
 Eager to leverage my skills in software development and innovation to contribute effectively to real-world projects. Seeking opportunities to translate classroom knowledge into practical applications and make a positive impact on the tech industry.
           </p>
           <div className="flex flex-row justify-start mt-8">
